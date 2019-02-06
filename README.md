@@ -1,5 +1,9 @@
 # What is this?
 
+**THIS IS A WIP**
+**Since mounting a file system is difficult and I'm against running supervisor in a container to run cron(and copy dags over), I'm working on another solution besides restarting all the containers when I deploy new dags.**
+**Maybe I can copy the dags from S3 onto the containers using airflow itself.  Hmm**
+
 This is the terraform code to create the following airflow architecture.
 
 ![AWS](images/airflow.jpg)
